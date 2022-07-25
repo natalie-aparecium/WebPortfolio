@@ -1,0 +1,48 @@
+body{
+  background-color: beige;
+  padding: 10px 0px 0px 0px;
+}
+header h1, p, nav{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1{
+  font-size: 40px;
+  margin-bottom: 1px;
+}
+
+header{
+  background-color:olivedrab;
+  text-align: center;
+  border-radius: 5%;
+}
+
+footer{
+  background-color: olivedrab;
+  
+}
+
+img{
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle{
+  border-radius: 20%;
+}
+
+h2, p {
+  text-align: center;
+}
+
+ul li {
+  text-align: left;
+  list-style-position: inside;
+}
