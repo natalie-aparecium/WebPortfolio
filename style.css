@@ -12,14 +12,14 @@ header h1{
 }
 
 header{
-  background-color:olivedrab;
+  color: beige;
+  background-color:#40590d;
   text-align: center;
-  border-radius: 5%;
 }
 
 footer{
-  background-color: olivedrab;
-  
+  background-color: #40590d;
+  color: beige;
 }
 
 img{
@@ -45,4 +45,23 @@ h2, p {
 ul li {
   text-align: left;
   list-style-position: inside;
+}
+
+a:link, a:visited {
+  height: 1px;
+  background-color: #40590d;
+  color: beige;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #121111;
+}
+
+hr {
+  color: black;
+  width: 75%;
 }
