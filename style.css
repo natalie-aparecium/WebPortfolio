@@ -1,52 +1,56 @@
+/*--style used for the whole page--*/
 body{
   background-color: beige;
   padding: 10px 0px 0px 0px;
 }
-header h1, p, nav{
+/*--text style used for most texts--*/
+header h1,h2, li, p, nav{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/*--style used for header and h1 --*/
 header h1{
   font-size: 40px;
   margin-bottom: 1px;
 }
-
+/*--style used only for header --*/
 header{
   color: beige;
   background-color:#40590d;
   text-align: center;
 }
-
+/*--style used only for footer--*/
 footer{
   background-color: #40590d;
   color: beige;
 }
-
+/*--style used for portait image--*/
 img{
   width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/*--style used for location image--*/
 .img2{
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/*--style used to curve portait image --*/
 .circle{
   border-radius: 20%;
 }
-
+/*--style used for text alignment of h2 and p--*/
 h2, p {
   text-align: center;
 }
-
+/*--style used for lists--*/
 ul li {
   text-align: left;
   list-style-position: inside;
 }
-
+/*--style used for links and when they are visited--*/
 a:link, a:visited {
   height: 1px;
   background-color: #40590d;
@@ -56,11 +60,11 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
-
+/*--style used for links when they are active and hovered--*/
 a:hover, a:active {
   background-color: #121111;
 }
-
+/*--style used for hr tag--*/
 hr {
   color: black;
   width: 75%;
